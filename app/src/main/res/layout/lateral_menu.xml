@@ -11,16 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="16dp"
-            android:text="TESTOOO"
-            android:textSize="25sp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1pt"
-            ></View>
-        <TextView
+            android:id="@+id/txv_elemento1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="16dp"
@@ -35,6 +26,16 @@
             android:layout_height="match_parent"
             android:padding="16dp"
             android:text="TESTOOO2"
+            android:textSize="25sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1pt"
+            ></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:text="TESTOOO3"
             android:textSize="25sp"/>
         <View
             android:layout_width="match_parent"
